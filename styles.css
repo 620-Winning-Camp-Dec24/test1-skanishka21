@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat font for the entire body */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white; /* Set background color to white */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4335A7; /* Used #4335A7 */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif; /* Montserrat font for the main heading */
+    color: white; /* Changed main heading color to white */
+    text-shadow: none; /* Removed text shadow */
+    text-transform: none; /* Ensures text is not in uppercase */
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation */
+nav {
+    background-color: #80C4E9; /* Changed navigation background color to #80C4E9 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    display: block;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif; /* Montserrat font for navigation links */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: #4335A7; /* Hover color changed to #4335A7 */
+    transform: scale(1.05);
+}
+
+/* Sections */
+.section {
+    margin: 2em auto;
+    padding: 2em;
+    max-width: 900px;
+    background-color: #80C4E9; /* Set section background to #80C4E9 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: black; /* Changed color to black */
+    font-family: 'Montserrat', sans-serif; /* Montserrat font for section headings */
+    text-transform: none; /* Ensures text is not in uppercase */
+    font-size: 2.5em;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Health Facts Section */
+.section #facts ul {
+    list-style: disc; /* Ensure bullets are visible */
+    padding-left: 40px; /* Adds space for bullets */
+    margin-left: 0;     /* Prevents overriding of left margin */
+}
+
+.section ul li {
+    margin: 0.8em 0;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif; /* Montserrat font for list items */
+}
+
+.section ul li i {
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+.section ul li img {
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background: #003d80;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    margin-top: 2em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #a0d2ff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #FF8383; 
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.contact-us {
+    background-color: #4335A7; 
+    padding: 2em;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif; 
+}
